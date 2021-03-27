@@ -83,7 +83,7 @@ while True:
             numPeopleInCall = browser.find_element_by_class_name("wnPUne")
             innerSpanNum = numPeopleInCall.get_attribute("innerHTML")
             leaveButton = browser.find_element_by_class_name("I5fjHe")
-            if innerSpanNum <= numPeopleAllowed:
+            if int(innerSpanNum) <= int(numPeopleAllowed):
                 time.sleep(1)
                 leaveButton.click()
 
