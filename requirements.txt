@@ -1,0 +1,4 @@
+pip~=21.0.1
+urllib3~=1.26.4
+selenium~=3.141.0
+setuptools~=54.2.0
